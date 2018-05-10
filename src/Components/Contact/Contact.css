@@ -1,0 +1,17 @@
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  padding-top: 110px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  padding: 10px;
+}
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}

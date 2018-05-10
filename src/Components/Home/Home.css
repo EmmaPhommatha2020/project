@@ -1,0 +1,69 @@
+.home-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  
+.specifics-container{
+  width: auto;
+  max-width: 720px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+.tops{
+  background-image: url("./../../pictures/top.jpg");
+  
+}
+
+.skirts{
+  background-image: url("./../../pictures/skirt.jpg")
+}
+
+.dresses{
+  background-image: url("./../../pictures/dress.jpg")    
+}
+
+.all{
+  background-image: url("./../../pictures/all.jpg")    
+}
+
+.tops, .skirts, .dresses, .all, .spring{
+  background-position: center;
+  background-size: 300px;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  margin: 20px 30px;  
+}
+
+.spring{
+  background-image: url("./../../pictures/wedding.jpg");
+  background-size: 100%;
+  margin: 20px;
+  width: 710px;
+  background-position: top;
+}
+
+.shop-the-season{
+  color: black;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 736px){
+  .spring{
+      width: 95%;
+      
+  }
+}
